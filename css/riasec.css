@@ -1,0 +1,381 @@
+/* CSS Document */
+body{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+
+#clearDIV{
+	clear:both;
+}
+
+table{
+	border-left-style: solid;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-top-color: #999;
+	border-right-color: #999;
+	border-left-width: 1px;
+	border-left-color: #FFF;
+	border-left-style: none;
+	border-bottom-style: none;
+}
+
+td{
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	
+	border-right-width: 1px;
+	border-right-color: #999;
+}
+.tbl_bottom_hideLines{
+	border-top-width: 1px;
+	border-top-color: #999;
+	border-top-style: solid;
+	border-right-style: none;
+	
+	
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #FFF;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-left-width: 0px;
+}
+.tbl_bottom{
+	border-top-width: 1px;
+	border-top-color: #999;
+	border-top-style: solid;
+}
+.td_topLine_white{
+	border-top-width: 1px;
+	border-top-color: #FFF;
+	border-top-style: solid;
+}
+.td_bold{
+	border: 2px solid #666;
+}
+#grandTotal_row{
+	margin: 0px;
+	padding: 0px 0px 0px 463px;
+	float: left;
+	height: 90px;
+	width: 417px;
+}
+
+#riasec_pageTitle{
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	height: 60px;
+	width: 900px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #999;
+	border-right-color: #999;
+	border-left-color: #999;
+}
+	
+#riasec_wrapper{
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	min-height: 1050px;
+	height:auto;
+	width: 900px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFF;
+	border-right-color: #999;
+	border-bottom-color: #999;
+	border-left-color: #999;
+	}
+	
+	#riasec_wrapper p{
+		margin-left: 10px;
+		padding:0px 0px 10px 0px;
+}
+
+#pathway_title{
+	margin: 10px 0px 0px 10px;
+	padding: 0px 0px 0px 0px;
+	font-size: 16px;
+	font-style: italic;
+	font-weight:bold;
+	color: #090;
+	width: 880px;
+}
+
+#riasec_title{
+	margin: 0px 0px 20px 10px;
+	padding: 0px 0px 0px 0px;
+	font-size: 25px;
+	color: #7AC142;
+	width: 880px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.riasec_hr{
+	margin: 0px 0px 0px 10px;
+	padding: 0px 0px 0px 0px;
+	width: 876px;
+}
+
+
+#left_box{
+	margin: 0px 10px 0px 10px;
+	padding: 0px 0px 0px 0px;
+	height: auto;
+	width: 400px;
+	float:left;
+	/*border: 1px solid #0F0;*/
+}
+
+#right_box{
+	margin: 0px 0px 0px 20px;
+	padding: 0px 0px 30px 30px;
+	height: auto;
+	width: 420px;
+	float:left;
+	/*border: 1px solid #0F0;*/
+}
+.grandTotal_arrow{
+	background-image: url(../imgs/total_arrow.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+
+#tbl_text{
+	background-color: #FFF;
+	margin: 0px 0px 0px -3px;
+	padding: 0px 3px 2px 6px;
+	height: auto;
+	width: auto !important;
+}
+#tbl_text2{
+	background-color: #FFF;
+	margin: -2px 0px 0px -3px;
+	padding: 0px 3px 0px 22px;
+	height: auto;
+	width: auto !important;
+}
+
+.riasec_chars{
+	color: #1CC2F2;
+	font-size:16px;
+	background-color:#E8E8E8;
+}
+
+
+/* ------------------------- CSS for Results section ------------------------------------- */
+
+#results{
+		margin: 10px auto 0px auto;
+		padding: 0px;
+		height: 1135px;
+		width: 900px;
+		border: 1px solid #999;
+	}	
+	#results p{
+		margin-left: 10px;
+}
+
+.riasecResult_chars{
+	color: #1CC2F2;
+	font-size:18px;
+	font-weight:bold;
+}
+#myCodes{
+	margin: 0px 0px 0px 40px;
+	padding: 0px 0px 0px 0px;
+	font-size:18px;
+	color: #1CC2F2;
+	float: left;
+}
+
+.myCode{
+	margin: 10px 10px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	float: left;
+	font-size: 24px;
+	height: 40px;
+	width: 60px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #0C0;
+	text-align: center;
+}
+
+#result_3_block{
+	margin: 0px 5px 0px 0px;
+	padding: 0px;
+	float: left;
+	height: 220px;
+	width: 375px;
+}
+
+#result_4_block{
+	margin: 0px 15px 0px 0px;
+	padding: 0px;
+	float: left;
+	height: 220px;
+	width: 300px;
+}
+
+#result_print{
+	margin: 4px 0px 40px 0px;
+	padding: 0px;
+	float: left;
+	height: 170px;
+	width: 185px;
+	text-align: center;
+	vertical-align: middle;
+	cursor:pointer;
+}
+
+#myInterest_code{
+	margin: -4px 0px 0px 43px;
+	padding: 0px 0px 0px 0px;
+	font-size: 25px;
+	color: #7AC142;
+	width: 240px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#myCodes{
+	margin: 0px 0px 20px 43px;
+	padding: 0px 0px 0px 0px;
+	width: 240px;
+}
+
+#text_analysis{
+	margin: 0px 0px 20px 10px;
+	padding: 0px;
+	clear: both;
+	height: auto;
+	width: 800px;
+	font-size:14px;
+}
+
+.careerPathwayInfo{
+	margin: 0px 0px 10px 10px;
+	padding: 0px;
+	float: left;
+	height: 240px;
+	width: 432px;
+	border: 1px solid #B0B0B0;
+}
+
+.cp_highlighted{
+	border: 1px solid #1CC2F2;
+	background-color: #FFB;
+}
+
+
+.careerPathwayInfo ul{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 27px;
+	float: left;
+}
+
+.careerPathwayInfo ul li{
+	padding: 2px 0px 2px 0px;
+}
+
+.careerPathwayInfo h3{
+	margin: 10px 0px 0px 10px;
+	padding: 0px 0px 0px 0px;
+	color: #1CC2F2;
+}
+
+
+.infoBox_wrapper{
+	margin: 0px 10px 0px 0px;
+	padding:0;
+	width: 200px;
+	height: 150px;	
+	float:right;
+}
+.infoBox_btn{
+	margin: -1px 0 0 0;
+	padding:0;
+	width: 200px;
+	height: 25px;
+	float:left;
+	border: 1px solid #999;
+	background-image: url(../../programs/imgs/discoverOptions_btn.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#infoBox{
+	background-color: #EAEAEA;
+	margin: 0px 10px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	float: left;
+	height: 125px;
+	width: 200px;
+	border: 1px solid #999;
+}
+
+#infoBox h4{
+	margin: 0px 0px 5px 0px;
+	padding: 3px 0px 3px 10px;
+	color: #FFF;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+	background-color: #A8A8A8;
+}
+
+#infoBox ul{
+	margin: 0px 0px 0px 20px;
+	padding: 0px 0px 0px 0px;
+	list-style-type:circle;
+	list-style-position:outside;
+}
+
+#infoBox ul li{
+	padding: 2px 0px 2px 0px;
+	
+	
+}
+
+
+#results a:link{
+	color:#09F;
+	text-decoration:none;
+	font-size:14px;
+}
+#results a:visited{
+	color:#09F;
+	text-decoration:none;
+	font-size:14px;
+}
+#results a:hover{
+	color:#0CF;
+	text-decoration:underline;
+	font-size:14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
