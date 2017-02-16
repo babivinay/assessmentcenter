@@ -39,9 +39,7 @@ CREATE TABLE IF NOT EXISTS `admin` (
 --
 
 INSERT INTO `admin` (`slno`, `username`, `password`, `phno`) VALUES
-(0, 'admin', 'vinay@123', '9640874054'),
-(0, 'ravikanth', 'ravi@1234', NULL),
-(0, 'sureshbabu', 'suresh@1234', NULL);
+(0, 'admin', 'test', NULL);
 
 -- --------------------------------------------------------
 
