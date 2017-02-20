@@ -415,7 +415,7 @@ CREATE TABLE IF NOT EXISTS `secretkeys` (
 --
 
 INSERT INTO `secretkeys` (`loginkey`, `registerkey`) VALUES
-('tp', 'srkr');
+('test', 'test');
 
 -- --------------------------------------------------------
 
